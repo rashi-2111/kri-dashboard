@@ -79,6 +79,13 @@ export default function ResetPassword() {
         <button className="w-full bg-[#1B4F8A] text-white p-2 rounded-lg hover:bg-blue-700">
           Reset Password
         </button>
+
+        <p
+          onClick={() => navigate("/")}
+          className="text-sm text-blue-600 mt-4 cursor-pointer text-center hover:underline"
+        >
+          Back to Login
+        </p>
       </form>
     </div>
   );
