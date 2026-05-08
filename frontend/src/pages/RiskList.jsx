@@ -11,7 +11,6 @@ export default function RiskList() {
 
   const [risks, setRisks] = useState([]);
   const [loading, setLoading] = useState(true);
-
   // Pagination
   const [page, setPage] = useState(0);
   const [totalPages, setTotalPages] = useState(1);
