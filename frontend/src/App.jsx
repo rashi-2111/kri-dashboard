@@ -26,6 +26,7 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/report" element={<Report />} />
         <Route path="/analytics" element={<Analytics />} />
+        <Route path="/risks/:id" element={<RiskDetail />} />
 
         {/* Protected */}
         <Route path="/dashboard" element={
